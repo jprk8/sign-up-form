@@ -12,7 +12,7 @@
             <img class="logo-img" src="img/logo.png" width="auto" height="100px">
             <div class="logo-text">
                 <div class="logo-title">VALHALLA</div>
-                <div class="logo-subtitle">International</div>
+                <div class="logo-subtitle">Private Islands</div>
             </div>
         </div>
         <div class="credit">
@@ -21,16 +21,68 @@
         </div>
         <img src="img/background.jpg" alt="aerial view of a couple walking on maldives beach">
     </div>
+
     <div class="main">
         <p class="welcome">
             This is not a real online service! You know you need something
             like this in your life to help you realize your deepest dreams.
+            <br/>Sign up <em>now</em> to get started.
             <br/><br/>
-            You know you want to.
+            You <em>know</em> you want to.
         </p>
-        <div class="form-container">
-            <p class="welcome">Let's do this!</p>
-        </div>
+        <form action="" method="get" class="sign-up-form">
+
+            <div class="form-container">
+                <p class="welcome">Let's do this!</p>
+                <div class="form-row">
+                        <span>
+                            <label for="name">
+                                <div>FIRST NAME</div>
+                            </label>
+                            <input type="text" id="name" name="name" />
+                        </span>
+                        <span>
+                            <label for="surname">
+                                <div>LAST NAME</div>
+                            </label>
+                            <input type="text" id="surname" name="surname" />
+                        </span>
+                </div>
+                <div class="form-row">
+                    <span>
+                        <label for="email">
+                            <div>EMAIL</div>
+                        </label>
+                        <input type="email" id="email" name="email" />
+                    </span>
+                    <span>
+                        <label for="phone">
+                            <div>PHONE NUMBER</div>
+                        </label>
+                        <input type="tel" id="phone" name="phone" />
+                    </span>
+                </div>
+                <div class="form-row">
+                    <span>
+                        <label for="password">
+                            <div>PASSWORD</div>
+                        </label>
+                        <input type="password" id="password" name="password" />
+                    </span>
+                    <span>
+                        <label for="password-confirm">
+                            <div>CONFIRM PASSWORD</div>
+                        </label>
+                        <input type="password" id="password-confirm" name="password-confirm" />
+                    </span>
+                </div>
+            </div>
+
+            <button type="submit">Create Account</button>
+            <div class="login">Already have an account?&nbsp;
+                <strong><a href="http://google.com">Log in</a></strong>
+            </div>
+        </form>
     </div>
 </body>
 </html>
