@@ -39,12 +39,14 @@
                                 <div>FIRST NAME</div>
                             </label>
                             <input type="text" id="name" name="name" />
+                            <div></div>
                         </span>
                         <span>
                             <label for="surname">
                                 <div>LAST NAME</div>
                             </label>
                             <input type="text" id="surname" name="surname" />
+                            <div></div>
                         </span>
                     </div>
                     <div class="form-row">
@@ -66,13 +68,18 @@
                             <label for="password">
                                 <div>PASSWORD</div>
                             </label>
-                            <input type="password" id="password" name="password" />
+                            <!-- Password (UpperCase, LowerCase, Number/SpecialChar and min 8 Chars) -->
+                            <input type="password" id="password" name="password" 
+                                pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" />
+                            <div></div>
                         </span>
                         <span>
                             <label for="password-confirm">
                                 <div>CONFIRM PASSWORD</div>
                             </label>
-                            <input type="password" id="password-confirm" name="password-confirm" />
+                            <input type="password" id="password-confirm" name="password-confirm" 
+                                pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" />
+                            <div></div>
                         </span>
                     </div>
                 </div>
