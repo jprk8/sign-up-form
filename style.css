@@ -78,7 +78,6 @@ a:visited {
     width: 500px;
     position: relative;
     color: white;
-    min-width: 350px;
 }
 
 .logo-panel {
@@ -112,7 +111,7 @@ a:visited {
 
 .credit {
     position: absolute;
-    font-size: 14px;
+    font-size: 12px;
     width: 100%;
     text-align: center;
     bottom: 12px;
@@ -124,13 +123,13 @@ a:visited {
     flex-direction: column;
     justify-content: center;
     font-size: 14px;
-    width: 1000px;
+    width: 900px;
     position: relative;
 }
 
 .welcome {
     max-inline-size: 55ch;
-    font-size: 24px;
+    font-size: 22px;
     font-family: "open_sanssemibold";
     margin-left: 30px;
 }
@@ -148,7 +147,7 @@ a:visited {
     color: rgb(66, 66, 66);
     padding-left: 30px;
     letter-spacing: 2px;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .form-row span {
@@ -197,15 +196,15 @@ button[type="submit"] {
     border-radius: 8px;
     color: white;
     font-weight: 800;
-    font-size: 18px;
-    padding: 16px 48px;
+    font-size: 16px;
+    padding: 16px 42px;
     margin: 48px 0 24px 30px;
     cursor: pointer;
 }
 
 .login {
     padding-left: 30px;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .login a {
