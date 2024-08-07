@@ -54,6 +54,16 @@ p, h1, h2, h3, h4, h5, h6 {
 
 body {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background: #e6dccc;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 6px 8px rgb(151, 151, 151);
 }
 
 a:link,
@@ -94,7 +104,7 @@ a:visited {
 
 .logo-subtitle {
     font-size: 16px;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
 }
 
 .credit {
@@ -102,7 +112,7 @@ a:visited {
     font-size: 14px;
     width: 100%;
     text-align: center;
-    bottom: 10px;
+    bottom: 12px;
 }
 
 .main {
@@ -127,7 +137,7 @@ a:visited {
     font-family: "open_sanssemibold";
     margin-top: 48px;
     padding: 24px 0 48px 0;
-    box-shadow: 0 6px 8px rgb(214, 214, 214);
+    box-shadow: 0 6px 6px rgb(214, 214, 214);
 }
 
 .form-row {
@@ -190,5 +200,5 @@ button[type="submit"] {
     padding-left: 30px;
     font-size: 12px;
     position: absolute;
-    bottom: 10px;
+    bottom: 12px;
 }
